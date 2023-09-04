@@ -15,16 +15,8 @@ services:
       - "80:80"
       - "443:443"
     networks:
-      - simbirgwent
-
-  simbirgwent:
-    container_name: simbirgwent
-    image: nginx:stable-alpine
-    ports:
-      - "8080:80"
-    networks:
-      - simbirgwent
+      - nginx-proxy
 
 networks:
-  simbirgwent:
+  nginx-proxy:
     driver: bridge
