@@ -13,7 +13,7 @@
 1. Склонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/yourusername/nginx-reverse-proxy.git
+   git clone https://github.com/dryzhkov98/nginx-reverse-proxy
    ```
 
 2. Cкопируйте переменные окружения и присвойте им значения
